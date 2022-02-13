@@ -1,0 +1,8 @@
+备份：
+adb backup -f freeotp.adb -apk world.letsgo.booster.android.pro
+
+恢复：
+adb restore freeotp.adb
+
+查看deviceName：
+adb shell getprop ro.product.model
